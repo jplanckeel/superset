@@ -86,7 +86,7 @@ class AthenaEngineSpec(BaseEngineSpec):
         :return: Conditionally mutated label
         """
         return label.lower()
-
+    
     @classmethod
     def get_cancel_query_id(cls, cursor: Any, query: Query) -> Optional[str]:
         """
@@ -126,3 +126,5 @@ class AthenaEngineSpec(BaseEngineSpec):
             return False
 
         return False
+
+
